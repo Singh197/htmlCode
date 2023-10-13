@@ -1,0 +1,122 @@
+ *{
+    padding:0
+    margin:0}
+   
+    h1{
+    color: blue;
+}
+p{
+    color:red ;
+}
+button{
+    color: brown;
+}
+body{
+background-color: darkgreen;
+}
+h1{
+    text-align: center;
+    color: blue;
+    text-decoration:underline;
+}
+p{
+    text-align: center;
+    color: blue;
+}
+#one{
+    font-size:25px;
+}
+div{
+    height: 100px;
+width: 100px;
+background-color: brown;
+border-width: 2px;
+border-color: black;
+border-style: dotted;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-width: 2px;
+border-radius: 10px;
+padding: 2px,5px,6px,8px;
+
+}
+#navbar{
+height: 60px;
+width: 100%;
+background-color: #0f1111;
+color: white;
+}
+button{
+    color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+div{
+height: 100px;
+width: 100px;
+background-color: aqua;
+border: 2px,solid,black;
+display: inline-block;
+}
+#box1{
+    position: static;
+}
+#box2 {
+position: relative;
+top:20px;
+left: 10px;
+}
+#box4{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+div{
+height: 100px;
+width: 100px;
+border: 2px,solid,black;
+background-color: blanchedalmond;
+}
+#box1{
+    background-image: url("home.avif");
+    background-size: cover;
+}
+.loader{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 20px solid yellowgreen;
+border-top: 20px solid aqua;
+animation: spinanimate 3s steps(5) 0s infinite normal;
+}
+@keyframes spinanimate {
+from{
+    transform: rotate(0deg);}
+to{
+    transform: rotate(360deg);}
+}
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
